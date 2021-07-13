@@ -1,0 +1,16 @@
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\7-islower\obj\Debug\net5.0\7-islower.csproj.AssemblyReference.cache
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\7-islower\obj\Debug\net5.0\7-islower.GeneratedMSBuildEditorConfig.editorconfig
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\7-islower\obj\Debug\net5.0\7-islower.AssemblyInfoInputs.cache
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\7-islower\obj\Debug\net5.0\7-islower.AssemblyInfo.cs
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\7-islower\obj\Debug\net5.0\7-islower.csproj.CoreCompileInputs.cache
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\7-islower\bin\Debug\net5.0\7-islower.exe
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\7-islower\bin\Debug\net5.0\7-islower.deps.json
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\7-islower\bin\Debug\net5.0\7-islower.runtimeconfig.json
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\7-islower\bin\Debug\net5.0\7-islower.runtimeconfig.dev.json
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\7-islower\bin\Debug\net5.0\7-islower.dll
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\7-islower\bin\Debug\net5.0\ref\7-islower.dll
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\7-islower\bin\Debug\net5.0\7-islower.pdb
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\7-islower\obj\Debug\net5.0\7-islower.dll
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\7-islower\obj\Debug\net5.0\ref\7-islower.dll
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\7-islower\obj\Debug\net5.0\7-islower.pdb
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\7-islower\obj\Debug\net5.0\7-islower.genruntimeconfig.cache

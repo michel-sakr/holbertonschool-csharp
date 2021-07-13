@@ -1,0 +1,16 @@
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\3-print_alphabt\bin\Debug\net5.0\3-print_alphabt.exe
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\3-print_alphabt\bin\Debug\net5.0\3-print_alphabt.deps.json
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\3-print_alphabt\bin\Debug\net5.0\3-print_alphabt.runtimeconfig.json
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\3-print_alphabt\bin\Debug\net5.0\3-print_alphabt.runtimeconfig.dev.json
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\3-print_alphabt\bin\Debug\net5.0\3-print_alphabt.dll
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\3-print_alphabt\bin\Debug\net5.0\ref\3-print_alphabt.dll
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\3-print_alphabt\bin\Debug\net5.0\3-print_alphabt.pdb
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\3-print_alphabt\obj\Debug\net5.0\3-print_alphabt.csproj.AssemblyReference.cache
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\3-print_alphabt\obj\Debug\net5.0\3-print_alphabt.GeneratedMSBuildEditorConfig.editorconfig
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\3-print_alphabt\obj\Debug\net5.0\3-print_alphabt.AssemblyInfoInputs.cache
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\3-print_alphabt\obj\Debug\net5.0\3-print_alphabt.AssemblyInfo.cs
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\3-print_alphabt\obj\Debug\net5.0\3-print_alphabt.csproj.CoreCompileInputs.cache
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\3-print_alphabt\obj\Debug\net5.0\3-print_alphabt.dll
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\3-print_alphabt\obj\Debug\net5.0\ref\3-print_alphabt.dll
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\3-print_alphabt\obj\Debug\net5.0\3-print_alphabt.pdb
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\3-print_alphabt\obj\Debug\net5.0\3-print_alphabt.genruntimeconfig.cache

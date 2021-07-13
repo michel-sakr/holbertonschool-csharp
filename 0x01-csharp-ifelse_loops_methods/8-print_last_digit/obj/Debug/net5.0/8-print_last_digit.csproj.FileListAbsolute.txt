@@ -1,0 +1,16 @@
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\8-print_last_digit\bin\Debug\net5.0\8-print_last_digit.exe
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\8-print_last_digit\bin\Debug\net5.0\8-print_last_digit.deps.json
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\8-print_last_digit\bin\Debug\net5.0\8-print_last_digit.runtimeconfig.json
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\8-print_last_digit\bin\Debug\net5.0\8-print_last_digit.runtimeconfig.dev.json
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\8-print_last_digit\bin\Debug\net5.0\8-print_last_digit.dll
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\8-print_last_digit\bin\Debug\net5.0\ref\8-print_last_digit.dll
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\8-print_last_digit\bin\Debug\net5.0\8-print_last_digit.pdb
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\8-print_last_digit\obj\Debug\net5.0\8-print_last_digit.csproj.AssemblyReference.cache
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\8-print_last_digit\obj\Debug\net5.0\8-print_last_digit.GeneratedMSBuildEditorConfig.editorconfig
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\8-print_last_digit\obj\Debug\net5.0\8-print_last_digit.AssemblyInfoInputs.cache
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\8-print_last_digit\obj\Debug\net5.0\8-print_last_digit.AssemblyInfo.cs
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\8-print_last_digit\obj\Debug\net5.0\8-print_last_digit.csproj.CoreCompileInputs.cache
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\8-print_last_digit\obj\Debug\net5.0\8-print_last_digit.dll
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\8-print_last_digit\obj\Debug\net5.0\ref\8-print_last_digit.dll
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\8-print_last_digit\obj\Debug\net5.0\8-print_last_digit.pdb
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\8-print_last_digit\obj\Debug\net5.0\8-print_last_digit.genruntimeconfig.cache
