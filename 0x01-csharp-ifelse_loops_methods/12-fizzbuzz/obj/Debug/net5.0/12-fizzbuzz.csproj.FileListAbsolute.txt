@@ -1,0 +1,16 @@
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\12-fizzbuzz\bin\Debug\net5.0\12-fizzbuzz.exe
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\12-fizzbuzz\bin\Debug\net5.0\12-fizzbuzz.deps.json
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\12-fizzbuzz\bin\Debug\net5.0\12-fizzbuzz.runtimeconfig.json
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\12-fizzbuzz\bin\Debug\net5.0\12-fizzbuzz.runtimeconfig.dev.json
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\12-fizzbuzz\bin\Debug\net5.0\12-fizzbuzz.dll
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\12-fizzbuzz\bin\Debug\net5.0\ref\12-fizzbuzz.dll
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\12-fizzbuzz\bin\Debug\net5.0\12-fizzbuzz.pdb
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\12-fizzbuzz\obj\Debug\net5.0\12-fizzbuzz.csproj.AssemblyReference.cache
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\12-fizzbuzz\obj\Debug\net5.0\12-fizzbuzz.GeneratedMSBuildEditorConfig.editorconfig
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\12-fizzbuzz\obj\Debug\net5.0\12-fizzbuzz.AssemblyInfoInputs.cache
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\12-fizzbuzz\obj\Debug\net5.0\12-fizzbuzz.AssemblyInfo.cs
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\12-fizzbuzz\obj\Debug\net5.0\12-fizzbuzz.csproj.CoreCompileInputs.cache
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\12-fizzbuzz\obj\Debug\net5.0\12-fizzbuzz.dll
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\12-fizzbuzz\obj\Debug\net5.0\ref\12-fizzbuzz.dll
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\12-fizzbuzz\obj\Debug\net5.0\12-fizzbuzz.pdb
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\12-fizzbuzz\obj\Debug\net5.0\12-fizzbuzz.genruntimeconfig.cache

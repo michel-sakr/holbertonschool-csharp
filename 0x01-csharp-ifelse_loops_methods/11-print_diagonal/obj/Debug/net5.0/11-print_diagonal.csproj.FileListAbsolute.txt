@@ -1,0 +1,16 @@
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\11-print_diagonal\obj\Debug\net5.0\11-print_diagonal.csproj.AssemblyReference.cache
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\11-print_diagonal\obj\Debug\net5.0\11-print_diagonal.GeneratedMSBuildEditorConfig.editorconfig
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\11-print_diagonal\obj\Debug\net5.0\11-print_diagonal.AssemblyInfoInputs.cache
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\11-print_diagonal\obj\Debug\net5.0\11-print_diagonal.AssemblyInfo.cs
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\11-print_diagonal\obj\Debug\net5.0\11-print_diagonal.csproj.CoreCompileInputs.cache
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\11-print_diagonal\bin\Debug\net5.0\11-print_diagonal.exe
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\11-print_diagonal\bin\Debug\net5.0\11-print_diagonal.deps.json
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\11-print_diagonal\bin\Debug\net5.0\11-print_diagonal.runtimeconfig.json
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\11-print_diagonal\bin\Debug\net5.0\11-print_diagonal.runtimeconfig.dev.json
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\11-print_diagonal\bin\Debug\net5.0\11-print_diagonal.dll
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\11-print_diagonal\bin\Debug\net5.0\ref\11-print_diagonal.dll
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\11-print_diagonal\bin\Debug\net5.0\11-print_diagonal.pdb
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\11-print_diagonal\obj\Debug\net5.0\11-print_diagonal.dll
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\11-print_diagonal\obj\Debug\net5.0\ref\11-print_diagonal.dll
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\11-print_diagonal\obj\Debug\net5.0\11-print_diagonal.pdb
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\11-print_diagonal\obj\Debug\net5.0\11-print_diagonal.genruntimeconfig.cache
