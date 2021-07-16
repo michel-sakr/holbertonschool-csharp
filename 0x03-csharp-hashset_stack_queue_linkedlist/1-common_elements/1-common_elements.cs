@@ -1,35 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 
-class Program
-{
-    // Main - entry point
-    static void Main(string[] args)
-    {
-        List<int> myList1 = new List<int>() { 1, 2, 3, 4, 5, 6 };
-        List<int> myList2 = new List<int>() { 0, 2, 4, 6, 7, 8 };
-        List<int> newList = new List<int>();
-
-        newList = List.CommonElements(myList1, myList2);
-
-        foreach (int i in newList)
-            Console.WriteLine(i);
-    }
-}
 
 class List
 {
     public static List<int> CommonElements(List<int> list1, List<int> list2)
     {
-        List<int> list3 = new List<int>();
-        foreach (int item in list1)
-        {
-            if (list2.Exists(j => j == item))
-            {
-                list3.Add(item);
-            }
-        }
-        list3.Sort();
-        return list3;
+        HashSet<int> set1 = new HashSet<int>(list1);
+        HashSet<int> set2 = new HashSet<int>(list2);
+        set1.IntersectWith(set2);
+        List<int> common = new List<int>(set1);
+        common.Sort();
+        return common;
     }
 }
