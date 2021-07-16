@@ -1,0 +1,4 @@
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\2-print_alphabet\obj\Debug\netcoreapp2.1\2-print_alphabet.csproj.AssemblyReference.cache
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\2-print_alphabet\obj\Debug\netcoreapp2.1\2-print_alphabet.AssemblyInfoInputs.cache
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\2-print_alphabet\obj\Debug\netcoreapp2.1\2-print_alphabet.AssemblyInfo.cs
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\2-print_alphabet\obj\Debug\netcoreapp2.1\2-print_alphabet.csproj.CoreCompileInputs.cache

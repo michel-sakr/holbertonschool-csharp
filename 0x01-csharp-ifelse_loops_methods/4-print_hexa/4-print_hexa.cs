@@ -8,8 +8,8 @@ namespace _4_print_hexa
         {
             for (int i = 0; i < 98; i++)
             {
-                string hexval = i.ToString("x10");
-                Console.WriteLine(i + " = " + hexval);
+                string hexval = i.ToString("x");
+                Console.WriteLine(i + " = " + "0x" + hexval);
             }
         }
     }

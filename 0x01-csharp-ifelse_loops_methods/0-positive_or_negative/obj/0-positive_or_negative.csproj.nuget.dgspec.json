@@ -13,6 +13,9 @@
         "packagesPath": "C:\\Users\\Micho_2\\.nuget\\packages\\",
         "outputPath": "D:\\LAU\\Computer science\\Holberton\\holbertonschool-csharp\\0x01-csharp-ifelse_loops_methods\\0-positive_or_negative\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Micho_2\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
