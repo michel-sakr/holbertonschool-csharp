@@ -1,0 +1,12 @@
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\6-print_comb2\bin\Debug\netcoreapp2.1\6-print_comb2.deps.json
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\6-print_comb2\bin\Debug\netcoreapp2.1\6-print_comb2.runtimeconfig.json
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\6-print_comb2\bin\Debug\netcoreapp2.1\6-print_comb2.runtimeconfig.dev.json
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\6-print_comb2\bin\Debug\netcoreapp2.1\6-print_comb2.dll
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\6-print_comb2\bin\Debug\netcoreapp2.1\6-print_comb2.pdb
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\6-print_comb2\obj\Debug\netcoreapp2.1\6-print_comb2.csproj.AssemblyReference.cache
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\6-print_comb2\obj\Debug\netcoreapp2.1\6-print_comb2.AssemblyInfoInputs.cache
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\6-print_comb2\obj\Debug\netcoreapp2.1\6-print_comb2.AssemblyInfo.cs
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\6-print_comb2\obj\Debug\netcoreapp2.1\6-print_comb2.csproj.CoreCompileInputs.cache
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\6-print_comb2\obj\Debug\netcoreapp2.1\6-print_comb2.dll
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\6-print_comb2\obj\Debug\netcoreapp2.1\6-print_comb2.pdb
+D:\LAU\Computer science\Holberton\holbertonschool-csharp\0x01-csharp-ifelse_loops_methods\6-print_comb2\obj\Debug\netcoreapp2.1\6-print_comb2.genruntimeconfig.cache

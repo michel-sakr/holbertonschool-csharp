@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "GJ3Yv2c4eFib0GG3ZgPJPqilsJEKTZGWAj0EtbEIant9DwReLIcNCIp9GWj1OfVL8YfaGqHrvBLVJlxsyfa4VA==",
+  "dgSpecHash": "X5z0EyeYIo54hn7RCZD8HWLCLorsYZUihN0D+6zvmLLidSkDYFFR2ixqNy7cuT3KQQ5vkkwef4oo0cqvoC1GCA==",
   "success": true,
   "projectFilePath": "D:\\LAU\\Computer science\\Holberton\\holbertonschool-csharp\\0x01-csharp-ifelse_loops_methods\\6-print_comb2\\6-print_comb2.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Micho_2\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "C:\\Users\\Micho_2\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "C:\\Users\\Micho_2\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.1.0\\microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "C:\\Users\\Micho_2\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.1.0\\microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "C:\\Users\\Micho_2\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "C:\\Users\\Micho_2\\.nuget\\packages\\microsoft.netcore.targets\\2.1.0\\microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "C:\\Users\\Micho_2\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
