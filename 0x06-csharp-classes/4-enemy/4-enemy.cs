@@ -1,57 +1,44 @@
 ﻿using System;
+
 namespace Enemies
 {
-    /// <summary>
-    /// Addition to Zombie class
-    /// </summary>
-    class Zombie
+    ///<summary>Creation of public class Zombie</summary>
+    public class Zombie
     {
-        int health; //private variable
-        string name = "(No name)"; //private variable
-
-        /// <summary>
-        /// Conatructor
-        /// </summary>
+        ///<summary>Creation of int health</summary>
+        private int health;
+        ///<summary>Creation of public constructor for Zombie and Setting health to 0</summary>
         public Zombie()
         {
             health = 0;
         }
-
-        /// <summary>
-        /// Overload
-        /// </summary>
-        /// <param name="value">health points</param>
+        ///<summary>Creation of public constructor with exception</summary>
         public Zombie(int value)
         {
             if (value >= 0)
+            {
                 health = value;
-            else
-                throw new ArgumentException("Health must be greater than or equal to 0");
+            }
         }
+        ///<summary>Creation of string name</summary>
+        private string name = "(No name)";
+        ///<summary>Creation of public property name</summary>
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
+            set
+            {
+                name = value;
+            }
 
-
-        /// <summary>
-        /// Getter
-        /// </summary>
-        /// <returns> health</returns>
+        }
+        ///<summary>Creation of method that return Health</summary>
         public int GetHealth()
         {
             return health;
         }
-
-        /// <summary>
-        /// Property
-        /// </summary>
-        /// <value>input from user</value>
-        public string Name
-        {
-            /// <summary>
-            /// Property Name
-            /// </summary>
-            get { return name; }
-            set { name = value; }
-        }
-
-
     }
 }
