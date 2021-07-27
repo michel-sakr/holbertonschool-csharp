@@ -1,4 +1,7 @@
 ﻿using System;
+/// <summary>
+/// starter
+/// </summary>
 namespace Enemies
 {
     /// <summary>
@@ -6,5 +9,7 @@ namespace Enemies
     /// </summary>
     class Zombie
     {
+        ///<summary>empty class<summary>
+
     }
 }
