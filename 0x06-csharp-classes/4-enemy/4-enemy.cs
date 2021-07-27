@@ -6,14 +6,21 @@ namespace Enemies
     /// </summary>
     class Zombie
     {
-        int health;
-        string name = "(No name)";
+        int health; //private variable
+        string name = "(No name)"; //private variable
 
+        /// <summary>
+        /// Conatructor
+        /// </summary>
         public Zombie()
         {
             health = 0;
         }
 
+        /// <summary>
+        /// Overload
+        /// </summary>
+        /// <param name="value">health points</param>
         public Zombie(int value)
         {
             if (value >= 0)
@@ -22,11 +29,20 @@ namespace Enemies
                 throw new ArgumentException("Health must be greater than or equal to 0");
         }
 
+
+        /// <summary>
+        /// Getter
+        /// </summary>
+        /// <returns> health</returns>
         public int GetHealth()
         {
             return health;
         }
 
+        /// <summary>
+        /// Property
+        /// </summary>
+        /// <value>input from user</value>
         public string Name
         {
             /// <summary>

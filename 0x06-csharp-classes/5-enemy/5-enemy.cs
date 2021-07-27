@@ -22,6 +22,10 @@ namespace Enemies
                 throw new ArgumentException("Health must be greater than or equal to 0");
         }
 
+        /// <summary>
+        /// getter
+        /// </summary>
+        /// <returns>health</returns>
         public int GetHealth()
         {
             return health;
@@ -36,6 +40,10 @@ namespace Enemies
             set { name = value; }
         }
 
+        /// <summary>
+        /// ToString override
+        /// </summary>
+        /// <returns>object details</returns>
         public override string ToString()
         {
 

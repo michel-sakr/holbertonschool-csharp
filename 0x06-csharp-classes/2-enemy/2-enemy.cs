@@ -1,6 +1,9 @@
 ﻿using System;
 namespace Enemies
 {
+    /// <summary>
+    /// Class update
+    /// </summary>
     class Zombie
     {
         public int health;
@@ -10,6 +13,10 @@ namespace Enemies
             health = 0;
         }
 
+        /// <summary>
+        /// Overload constructor
+        /// </summary>
+        /// <param name="value">amount of health </param>
         public Zombie(int value)
         {
             if (value >= 0)
