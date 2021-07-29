@@ -6,7 +6,7 @@ namespace MyMath.Tests
     /// <summary>
     /// Tests for addition
     /// </summary>
-    public class Tests
+    public class OperationsTests
     {
         [Test]
         /// <summary>
