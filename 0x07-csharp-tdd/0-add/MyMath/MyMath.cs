@@ -2,18 +2,16 @@
 
 namespace MyMath
 {
-    /// <summary>
-    /// Class operations
-    /// </summary>
+    ///<summary>Creation of class Operations</summary>
+
     public class Operations
     {
-        /// <summary>
-        /// Method to add two integers
-        /// </summary>
-        /// <param name="a">int a</param>
-        /// <param name="b">int b</param>
-        /// <returns>addition</returns>
-        public static int Add(int a, int b) {
+        ///<param name="a">int a</param>
+        ///<param name="b">int b</param>
+        ///<returns>addition of a and b</returns>
+        ///<summary>Method for adding two int</summary>
+        public static int Add(int a, int b)
+        {
             return a + b;
         }
     }

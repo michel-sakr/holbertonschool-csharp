@@ -3,46 +3,50 @@ using NUnit.Framework;
 namespace MyMath.Tests
 {
     [TestFixture]
-    /// <summary>
-    /// Tests for addition
-    /// </summary>
+    ///<summary>Starting set of tests for addition</summary>
     public class OperationsTests
     {
         [Test]
-        /// <summary>
-        /// Two zeros
-        /// </summary>
-        public void TwoZeros()
+        ///<summary>both positive</summary>
+        public void TestPositive()
         {
-            int twozs = Operations.Add(0, 0);
-            Assert.AreRqual(0, twozs);
+            int aPlusb = Operations.Add(1, 8);
+            Assert.AreEqual(9, aPlusb);
         }
-        
-        /// <summary>
-        /// Two positive
-        /// </summary>
-        public void TwoPositives()
+        [Test]
+        ///<summary>both negative</summary>
+        public void TestNegative()
         {
-            int twos = Operations.Add(1, 9);
-            Assert.AreRqual(10, twos);
+            int aPlusb = Operations.Add(-1, -8);
+            Assert.AreEqual(-9, aPlusb);
         }
-        
-        /// <summary>
-        /// Two negative
-        /// </summary>
-        public void TwoNegatives()
+        [Test]
+        ///<summary>both zero</summary>
+        public void Test2Zero()
         {
-            int twos = Operations.Add(-1, -2);
-            Assert.AreRqual(-3, twos);
+            int aPlusb = Operations.Add(0, 0);
+            Assert.AreEqual(0, aPlusb);
         }
-
-        /// <summary>
-        /// One positive one negative
-        /// </summary>
-        public void Alternative()
+        [Test]
+        ///<summary>one positive / one negative</summary>
+        public void TestDiffer()
         {
-            int twos = Operations.Add(-1, 1);
-            Assert.AreRqual(0, twos);
+            int aPlusb = Operations.Add(1, -8);
+            Assert.AreEqual(-7, aPlusb);
+        }
+        [Test]
+        ///<summary>one zero / one negative</summary>
+        public void TestZeroNeg()
+        {
+            int aPlusb = Operations.Add(0, -8);
+            Assert.AreEqual(-8, aPlusb);
+        }
+        [Test]
+        ///<summary>one positive / one zero</summary>
+        public void TestZeroPos()
+        {
+            int aPlusb = Operations.Add(1, 0);
+            Assert.AreEqual(1, aPlusb);
         }
     }
 }
