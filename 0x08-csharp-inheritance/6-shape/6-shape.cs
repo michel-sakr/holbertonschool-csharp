@@ -11,12 +11,13 @@ class Rectangle : Shape
     /// </summary>
     private int width; //width
     private int height; //height
+
+    /// <summary>
+    /// Property width
+    /// </summary>
+    /// <value>input</value>
     public int Width
     {
-        /// <summary>
-        /// Property width
-        /// </summary>
-        /// <value>input</value>
         get { return width; }
         set
         {
@@ -26,12 +27,12 @@ class Rectangle : Shape
         }
     }
 
+    /// <summary>
+    /// Property height
+    /// </summary>
+    /// <value>input</value>
     public int Height
     {
-        /// <summary>
-        /// Property height
-        /// </summary>
-        /// <value>input</value>
         get { return height; }
         set
         {
