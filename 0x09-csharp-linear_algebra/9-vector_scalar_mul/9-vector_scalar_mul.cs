@@ -3,6 +3,12 @@
 
     class VectorMath
     {
+        /// <summary>
+        /// Method to multiply vector by scalar
+        /// </summary>
+        /// <param name="vector"></param>
+        /// <param name="scalar"></param>
+        /// <returns></returns>
         public static double[] Multiply(double[] vector, double scalar) {
              double[] result;
         if(vector.Length == 2) {

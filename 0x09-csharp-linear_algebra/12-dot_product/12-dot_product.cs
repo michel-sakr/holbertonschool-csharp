@@ -3,7 +3,13 @@
 
 class VectorMath
 {
-        public static double DotProduct(double[] vector1, double[] vector2)
+    /// <summary>
+    /// Method to multiply two vectors
+    /// </summary>
+    /// <param name="vector1"></param>
+    /// <param name="vector2"></param>
+    /// <returns></returns>
+    public static double DotProduct(double[] vector1, double[] vector2)
     {
         if (vector1.Length == 2 && vector2.Length == 2)
         {

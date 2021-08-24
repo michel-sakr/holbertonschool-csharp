@@ -2,6 +2,12 @@
 
 class VectorMath
 {
+    /// <summary>
+    /// Adds two vectors
+    /// </summary>
+    /// <param name="vector1"></param>
+    /// <param name="vector2"></param>
+    /// <returns>vector</returns>
     public static double[] Add(double[] vector1, double[] vector2) {
         double[] result;
         if(vector1.Length == 2 && vector2.Length == 2) {
