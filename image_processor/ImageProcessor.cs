@@ -1,7 +1,12 @@
 ﻿using System;
 using System.IO;
-using System.Threading;
+using System.Collections.Generic;
 using System.Drawing;
+using System.Drawing.Imaging;
+using System.Threading;
+using System.Threading.Tasks;
+
+
 
 class ImageProcessor{
     /// <summary>
@@ -9,22 +14,13 @@ class ImageProcessor{
     /// </summary>
     /// <param name="filenames">String with all file names</param>
     public static void Inverse(string[] filenames) {
-        for(int i = 0; i < filenames.Length; i++) {
-            Thread t = new Thread(new ParameterizedThreadStart(ImageThread));
-            t.Start(filenames[i]);
-        }
-    }
+        Parallel.ForEach(filenames, (file) => {
+            var filename = Path.GetFileNameWithoutExtension(file);
+            var extention = Path.GetExtension(file);
+            filename = filename + "_inverse" + extention;
 
-    /// <summary>
-    /// Function that clones the image and subtracts 255 from all colors of every pixel to get the inverse
-    /// </summary>
-    /// <param name="fn">object passed by thread</param>
-    public static void ImageThread(object fn) {
-        string filename = (string) fn;
-        Bitmap bmp;
-            bmp = new Bitmap(filename);
-            string[] file = filename.Split(".");
-            string[] location = file[0].Split("/");
+            Bitmap bmp;
+            bmp = new Bitmap(file);
             Bitmap newbmp = (Bitmap)bmp.Clone();
             Color col;
             for (int k = 0; k < newbmp.Width; k++)  
@@ -33,24 +29,25 @@ class ImageProcessor{
                 {  
                     col = newbmp.GetPixel(k, j);  
                     newbmp.SetPixel(k, j,  
-      Color.FromArgb(255 - col.R, 255 - col.G, 255 - col.B));  
+                    Color.FromArgb(255 - col.R, 255 - col.G, 255 - col.B));  
                 }  
             }  
-            newbmp.Save(location[1]+ ".inversed." + file[1]);
+            newbmp.Save(filename);            
+        });
     }
 }
 
-// class Program
-// {
-//     static void Main(string[] args)
-//     {
-//         string[] filenames;
+class Program
+{
+    static void Main(string[] args)
+    {
+        string[] filenames;
 
-//         if (args.Length > 1)
-//             filenames = args;
-//         else
-//             filenames = Directory.GetFiles("images/", "*.jpg");
+        if (args.Length > 1)
+            filenames = args;
+        else
+            filenames = Directory.GetFiles("images/", "*.jpg");
 
-//         ImageProcessor.Inverse(filenames);
-//     }
-// }
+        ImageProcessor.Inverse(filenames);
+    }
+}
