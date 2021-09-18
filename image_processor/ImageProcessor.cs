@@ -4,6 +4,10 @@ using System.Threading;
 using System.Drawing;
 
 class ImageProcessor{
+    /// <summary>
+    /// Function that creates a new thread for every image to be processed.
+    /// </summary>
+    /// <param name="filenames">String with all file names</param>
     public static void Inverse(string[] filenames) {
         for(int i = 0; i < filenames.Length; i++) {
             Thread t = new Thread(new ParameterizedThreadStart(ImageThread));
@@ -11,6 +15,10 @@ class ImageProcessor{
         }
     }
 
+    /// <summary>
+    /// Function that clones the image and subtracts 255 from all colors of every pixel to get the inverse
+    /// </summary>
+    /// <param name="fn">object passed by thread</param>
     public static void ImageThread(object fn) {
         string filename = (string) fn;
         Bitmap bmp;
@@ -32,17 +40,17 @@ class ImageProcessor{
     }
 }
 
-class Program
-{
-    static void Main(string[] args)
-    {
-        string[] filenames;
+// class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         string[] filenames;
 
-        if (args.Length > 1)
-            filenames = args;
-        else
-            filenames = Directory.GetFiles("images/", "*.jpg");
+//         if (args.Length > 1)
+//             filenames = args;
+//         else
+//             filenames = Directory.GetFiles("images/", "*.jpg");
 
-        ImageProcessor.Inverse(filenames);
-    }
-}
+//         ImageProcessor.Inverse(filenames);
+//     }
+// }
