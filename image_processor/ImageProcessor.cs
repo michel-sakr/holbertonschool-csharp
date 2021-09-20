@@ -14,25 +14,52 @@ class ImageProcessor{
     /// </summary>
     /// <param name="filenames">String with all file names</param>
     public static void Inverse(string[] filenames) {
-        Parallel.ForEach(filenames, (file) => {
-            var filename = Path.GetFileNameWithoutExtension(file);
-            var extention = Path.GetExtension(file);
-            filename = filename + "_inverse" + extention;
+        // Parallel.ForEach(filenames, (file) => {
+        //     var filename = Path.GetFileNameWithoutExtension(file);
+        //     var extention = Path.GetExtension(file);
+        //     filename = filename + "_inverse" + extention;
 
-            Bitmap bmp;
-            bmp = new Bitmap(file);
-            Bitmap newbmp = (Bitmap)bmp.Clone();
-            Color col;
-            for (int k = 0; k < newbmp.Width; k++)  
-            {  
-                for (int j = 0; j < newbmp.Height; j++)  
-                {  
-                    col = newbmp.GetPixel(k, j);  
-                    newbmp.SetPixel(k, j,  
-                    Color.FromArgb(255 - col.R, 255 - col.G, 255 - col.B));  
-                }  
-            }  
-            newbmp.Save(filename);            
+        //     Bitmap bmp;
+        //     bmp = new Bitmap(file);
+        //     Bitmap newbmp = (Bitmap)bmp.Clone();
+        //     Color col;
+        //     for (int k = 0; k < newbmp.Width; k++)  
+        //     {  
+        //         for (int j = 0; j < newbmp.Height; j++)  
+        //         {  
+        //             col = newbmp.GetPixel(k, j);  
+        //             newbmp.SetPixel(k, j,  
+        //             Color.FromArgb(255 - col.R, 255 - col.G, 255 - col.B));  
+        //         }  
+        //     }  
+        //     newbmp.Save(filename);            
+        // });
+        Parallel.ForEach(filenames, (myFile) =>
+        {
+            var ext = Path.GetExtension(myFile);
+            var fName = Path.GetFileNameWithoutExtension(myFile);
+            fName += "_inverse" + ext;
+
+            Bitmap bmp = new Bitmap(myFile);
+
+            Rectangle rect = new Rectangle(0, 0, bmp.Width, bmp.Height);
+            BitmapData bmpData = bmp.LockBits(rect, ImageLockMode.ReadWrite, bmp.PixelFormat);
+
+            IntPtr ptr = bmpData.Scan0;
+
+            int bytes = Math.Abs(bmpData.Stride) * bmp.Height;
+            byte[] rgbValues = new byte[bytes];
+
+            System.Runtime.InteropServices.Marshal.Copy(ptr, rgbValues, 0, bytes);
+
+            for (int i = 0; i < rgbValues.Length; i++)
+                rgbValues[i] = (byte)(255 - rgbValues[i]);
+
+            System.Runtime.InteropServices.Marshal.Copy(rgbValues, 0, ptr, bytes);
+
+            bmp.UnlockBits(bmpData);
+
+            bmp.Save($"{fName}");
         });
     }
 }
@@ -74,33 +101,33 @@ class ImageProcessor{
 //     public static void Inverse(string[] filenames)
 //     {
 
-//         Parallel.ForEach(filenames, (myFile) =>
-//         {
-//             var ext = Path.GetExtension(myFile);
-//             var fName = Path.GetFileNameWithoutExtension(myFile);
-//             fName += "_inverse" + ext;
+        // Parallel.ForEach(filenames, (myFile) =>
+        // {
+        //     var ext = Path.GetExtension(myFile);
+        //     var fName = Path.GetFileNameWithoutExtension(myFile);
+        //     fName += "_inverse" + ext;
 
-//             Bitmap bmp = new Bitmap(myFile);
+        //     Bitmap bmp = new Bitmap(myFile);
 
-//             Rectangle rect = new Rectangle(0, 0, bmp.Width, bmp.Height);
-//             BitmapData bmpData = bmp.LockBits(rect, ImageLockMode.ReadWrite, bmp.PixelFormat);
+        //     Rectangle rect = new Rectangle(0, 0, bmp.Width, bmp.Height);
+        //     BitmapData bmpData = bmp.LockBits(rect, ImageLockMode.ReadWrite, bmp.PixelFormat);
 
-//             IntPtr ptr = bmpData.Scan0;
+        //     IntPtr ptr = bmpData.Scan0;
 
-//             int bytes = Math.Abs(bmpData.Stride) * bmp.Height;
-//             byte[] rgbValues = new byte[bytes];
+        //     int bytes = Math.Abs(bmpData.Stride) * bmp.Height;
+        //     byte[] rgbValues = new byte[bytes];
 
-//             System.Runtime.InteropServices.Marshal.Copy(ptr, rgbValues, 0, bytes);
+        //     System.Runtime.InteropServices.Marshal.Copy(ptr, rgbValues, 0, bytes);
 
-//             for (int i = 0; i < rgbValues.Length; i++)
-//                 rgbValues[i] = (byte)(255 - rgbValues[i]);
+        //     for (int i = 0; i < rgbValues.Length; i++)
+        //         rgbValues[i] = (byte)(255 - rgbValues[i]);
 
-//             System.Runtime.InteropServices.Marshal.Copy(rgbValues, 0, ptr, bytes);
+        //     System.Runtime.InteropServices.Marshal.Copy(rgbValues, 0, ptr, bytes);
 
-//             bmp.UnlockBits(bmpData);
+        //     bmp.UnlockBits(bmpData);
 
-//             bmp.Save($"{fName}");
-//         });
+        //     bmp.Save($"{fName}");
+        // });
 //     }
 
 //     /// <summary>
